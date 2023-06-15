@@ -1,0 +1,39 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: url(/img/tela1.png);
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.logo-oceanlife {
+    width: 280px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login form {
+    margin-top: 200px;
+    margin-left: 15px;
+}
+
+h1 {
+    color: #128AB0;
+    font-size: 50px;
+}
+
+
