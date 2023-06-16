@@ -8,11 +8,18 @@ body {
 
 
 .logo-oceanlife {
-    width: 280px;
+    width: 290px;
     float: right;
     margin-right: 20px;
     margin-top: -30px;
 }
+
+h1 {
+    margin-left: 200px;
+    color: #128AB0;
+    font-size: 50px;
+}
+
 
 main {
     display: flex;
@@ -20,20 +27,64 @@ main {
     margin-top: 50px;
 }
 
-.login {
+form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-
-.login form {
     margin-top: 200px;
-    margin-left: 15px;
 }
 
-h1 {
-    color: #128AB0;
-    font-size: 50px;
+input {
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    text-indent: 20px;
+    margin-bottom: 7px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
 }
+
+input::placeholder {
+    color: #128bb070; 
+  }
+
+.input-icon {
+    position: relative;
+    
+}
+
+.input-icon input {
+    padding-left: 30px; 
+}
+
+.input-icon::before {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.input-icon.email::before {
+    content:url(/img/usuario.png);
+   
+}
+
+.input-icon.senha::before {
+    content:url(/img/chave.png);
+}
+
+button {
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 5px;
+    background-color: #128AB0;
+    color: #ffff;
+
+}
+
 
 
