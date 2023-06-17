@@ -1,37 +1,49 @@
 body {
     font-family: 'Rubik', sans-serif;
     background-image: url(/img/tela1.png);
-    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
 }
 
 
 .logo-oceanlife {
-    width: 290px;
+    width: 340px;
     float: right;
-    margin-right: 20px;
-    margin-top: -30px;
+    top: 30px;
+    right: 30px;
+    margin-top: -170px;
 }
 
 h1 {
-    margin-left: 200px;
+    margin-top: -100px;
     color: #128AB0;
     font-size: 50px;
+    z-index: 3;
 }
 
 
 main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    display: block;
+    margin: 170px;
+    margin-top: 280px;
+
 }
 
 form {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: -80px;
+
 }
+
+.p {
+    margin-top: 7px;
+}
+
 
 input {
     height: 20px;
@@ -51,7 +63,7 @@ input::placeholder {
 
 .input-icon {
     position: relative;
-    
+        
 }
 
 .input-icon input {
@@ -83,8 +95,24 @@ button {
     padding: 5px;
     background-color: #128AB0;
     color: #ffff;
-
+    width: 290px;
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: #A0D7FB;
+    color: #0F5387;
+}
 
+.senha {
+    color: #ffff;
+}
 
+p {
+    color: #ffff;
+}
+
+.cadastro {
+    color: #0F5387;
+}
