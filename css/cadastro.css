@@ -29,9 +29,30 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 h3 {
     text-align: center;
     color: #4EB9CD;
+}
+
+.cadastro { 
+    display: block;
+    margin: 20px auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 5px;
+    background-color: #128AB0;
+    color: #ffff;
+    width: 100px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
