@@ -146,3 +146,7 @@ p {
     width: 30%;
     font-family:'Wix Madefor Display', sans-serif;
 }
+
+input:focus {
+    outline: none;
+}
