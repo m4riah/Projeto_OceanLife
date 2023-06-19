@@ -27,11 +27,15 @@ body {
 }
 
 h1 {
-    color: #d6e6eb;
+    color: #FBFBFB;
     font-size: 50px; 
     margin-bottom: 10px;
 }
 
+.link-cad {
+    font-weight: bold;
+    color: #0F5387;
+}
 
 main {
     height: 100vh;
@@ -95,15 +99,18 @@ button {
     width: 290px;
     transition: background-color 0.3s;
     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 0 transparent;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover{
-    background-color: #A0D7FB;
-    color: #0F5387;
+    box-shadow: 0 0 10px #D1EBFE;;
 }
 
 .senha {
     color: #ffff;
+    text-decoration: none;
 }
 
 p {
