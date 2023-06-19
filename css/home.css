@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans Nushu', sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 90px;
+    background-color: #4EB9CD;
+    display: flex;
+    align-items: center;
+}
+
+
+.box p {
+    font-size: 15px;
+    margin-right: 88px;
+    margin-top: 55px;
+    color: white;
+}
+
+.logo-oceanlife {
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.usuario { 
+  position: absolute; 
+  top: 27px; 
+  right: 22px; 
+  width: 40px; 
+  height: auto; 
+  cursor: pointer;
+}
+
+.exit {
+    margin-right: auto;
+}
+
+.sair {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.destaque {
+    height: 200vh;
+    padding: 30px;
+    margin-top: 20px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.destaque img {
+    max-height: 100%; 
+    max-width: 100%;
+    height: auto; 
+    width: auto; 
+    cursor: pointer;
+}
+
+
+  
+  
+  
+  

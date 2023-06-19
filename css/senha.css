@@ -88,7 +88,12 @@ p {
     justify-content: center;
     color: #128AB0;
     position: relative;
+    margin: 20px auto;
+    padding: 5px;
+    border: none;
     top: -10px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 a {
@@ -100,3 +105,4 @@ a {
     bottom: 0;
     width: 100%;
 }
+
