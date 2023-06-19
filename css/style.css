@@ -19,7 +19,7 @@ body {
 }
 
 .geral{
-    width: 55%;
+    width: 47%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    color: #128AB0;
+    color: #d6e6eb;
     font-size: 50px; 
     margin-bottom: 10px;
 }
@@ -112,4 +112,30 @@ p {
 
 .cadastro {
     color: #0F5387;
+}
+
+.img-baleia {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    animation: balanco 2s infinite ease-in-out;
+
+
+}
+
+@keyframes balanco {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+
+}
+
+.oceanlife {
+    color: #47b1c4;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 30%;
+    font-family:'Wix Madefor Display', sans-serif;
 }
