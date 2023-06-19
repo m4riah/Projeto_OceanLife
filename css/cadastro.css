@@ -19,8 +19,8 @@ body {
 }
 
 .box {
-    width: 100vh;
-    height: 300px;
+    width: 90vh;
+    margin-top: 90px;
     background-color: #ffff;
     border: 2px solid transparent;
     border-radius: 10px;
@@ -40,19 +40,172 @@ h3 {
 .cadastro { 
     display: block;
     margin: 20px auto;
-    margin-top: 5px;
-    border-radius: 20px;
-    border: none;
+    margin-top: 19px;
+    border-radius: 15px;
+    border: #75BE53;
     font-size: 14px;
     height: 40px;
     padding: 5px;
-    background-color: #128AB0;
+    background-color: #68EC2A;
     color: #ffff;
-    width: 100px;
+    width: 140px;
     transition: background-color 0.3s;
     cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 a {
     text-decoration: none;
+}
+
+.input-name,
+.input-lastname {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.input-data-nascimento,
+.input-senha {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.input-cpf,
+.input-sexo{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.total {
+    padding: 30px 30px 0 30px;
+}
+
+.input-name label, 
+.input-lastname label {
+  display: block;
+  margin-bottom: 5px; 
+  color: #0F5387;
+}
+
+.input-email label,
+.input-email-confirm label {
+    display: block;
+    color: #0F5387;
+}
+
+.input-cpf label,
+.input-sexo label{
+    display: block;
+    margin-bottom: 5px; 
+    color: #0F5387;
+}
+
+.input-name input,
+.input-lastname input { 
+    height: 20px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    font-size: 13px;
+    text-indent: 20px;
+    width: 100%;
+    margin-bottom: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-email input,
+.input-email-confirm input {
+    height: 20px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    font-size: 13px;
+    text-indent: 20px;
+    margin-bottom: 7px;
+    width: 95%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 4px;
+}
+
+.input-cpf input {
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    font-size: 13px;
+    margin-bottom: 7px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-sexo select {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-sexo label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #0F5387;
+}
+
+.input-sexo select option {
+    color: #0F5387;
+    background-color: #FBFBFB;
+}
+
+.input-data-nascimento input[type="date"] {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 9px;
+}
+  
+.input-data-nascimento label, 
+.input-senha label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #0F5387;
+
+}
+
+.input-senha input {
+    width: 95%;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #D4D0D0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 9px;
+}
+
+.input-sexo select:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+
+.input-data-nascimento input[type="date"]:focus {
+    outline: none;
+}
+
+.grupo,
+.grupo1,
+.grupo2{
+    width: 100%;
+    display: flex;
+    gap: 10px;
 }

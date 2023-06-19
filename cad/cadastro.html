@@ -23,44 +23,52 @@
     <main>
         <div class="box">
             <h3>Criar uma nova conta</h3>
+            <div class="total">
+            <div class="grupo">
             <div class="input-name">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <label class="Nome" for="nome">Nome:</label>
+                <input type="text" placeholder="Digite aqui">
             </div>
             <div class="input-lastname">
                 <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" required>
+                <input type="text" placeholder="Digite aqui">
             </div>
+        </div>
             <div class="input-email">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" placeholder="Digite aqui">
             </div>
             <div class="input-email-confirm">
                 <label for="email-confirm">Confirmar Email:</label>
-                <input type="email" id="email-confirm" name="email-confirm" required>
+                <input type="email" placeholder="Digite aqui">
             </div>
-            <div class="input-cpf">
-                <label for="cpf">CPF:</label>
-                <input type="text" id="cpf" name="cpf" required>
+            <div class="grupo1">
+                <div class="input-cpf">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" placeholder="Digite aqui">
+                </div>
+                <div class="input-sexo">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
             </div>
-            <div class="input-sexo">
-                <label for="sexo">Sexo:</label>
-                <select id="sexo" name="sexo" required>
-                    <option value="masculino">Masculino</option>
-                    <option value="feminino">Feminino</option>
-                    <option value="outro">Outro</option>
-                </select>
+            <div class="grupo2">
+                <div class="input-data-nascimento">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required>
+                </div>
+                <div class="input-senha">
+                    <label for="senha">Senha:</label>
+                    <input type="password" placeholder="Digite aqui">
+                </div>
             </div>
-            <div class="input-data-nascimento">
-                <label for="data-nascimento">Data de Nascimento:</label>
-                <input type="date" id="data-nascimento" name="data-nascimento" required>
-            </div>
-            <div class="input-senha">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
             </div>
             <a href="/home.html"><button class="cadastro" type="submit">Cadastre-se</button></a>
-        </div>
+    </div>
     </main>
 </body>
 

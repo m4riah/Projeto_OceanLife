@@ -29,6 +29,7 @@ body {
 h1 {
     color: #128AB0;
     font-size: 50px; 
+    margin-bottom: 10px;
 }
 
 
@@ -111,4 +112,9 @@ p {
 
 .cadastro {
     color: #0F5387;
+}
+
+h2 {
+    margin-top: 0;
+    color: #FBFBFB;
 }
