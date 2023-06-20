@@ -31,7 +31,7 @@ body {
   position: absolute; 
   top: 27px; 
   right: 22px; 
-  width: 40px; 
+  width: 37px; 
   height: auto; 
   cursor: pointer;
 }
@@ -41,14 +41,14 @@ body {
 }
 
 .sair {
-    width: 25px;
+    width: 27px;
     margin-left: 20px;
 }
 
 .destaque {
     height: 200vh;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 18px;
     align-items: center; 
     justify-content: center; 
 }
@@ -61,8 +61,52 @@ body {
     cursor: pointer;
 }
 
+.destaque img:hover {
+    transform: scale(1.01);
+    transition: all 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
 
+.menu {
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: 0px 4px 4px -2px rgba(3, 3, 3, 0.11);
+    border-radius: 6px;
+  }
   
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+  }
   
+  .menu li {
+    margin-right: 80px;
+    position: relative; 
+  }
   
+  .menu li a {
+    text-decoration: none;
+    color: #9ac8d6;
+    padding-bottom: 5px; 
+    font-weight: 500;
+  }
   
+  .menu li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: rgba(62, 148, 197, 0.247); 
+    transform: scaleX(0); 
+    transition: transform 0.2s ease; 
+  }
+  
+  .menu li:hover::after {
+    transform: scaleX(1); 
+  }

@@ -79,8 +79,7 @@ input::placeholder {
 }
 
 .input-icon.email::before {
-    content:url(/img/usuario.png);
-   
+    content:url(/img/usuario2.png);
 }
 
 .input-icon.senha::before {
