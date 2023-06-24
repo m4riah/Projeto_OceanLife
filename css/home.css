@@ -46,7 +46,6 @@ body {
 }
 
 .destaque {
-    height: 200vh;
     padding: 30px;
     margin-top: 3px;
     align-items: center; 
@@ -173,11 +172,12 @@ body {
 }
 
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: -35em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  top: 620px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card {
@@ -213,4 +213,8 @@ body {
 
 .ver-mais:hover {
   background-color: #7CEDE7;
+}
+
+.card-image {
+  border-radius: 15px 15px 0 0;
 }
