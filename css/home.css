@@ -156,10 +156,10 @@ body {
 
 .text-ocean:hover .bolhas {
   transform: translateY(-35%);
-  opacity: 0.4;
+  opacity: 0.5;
   top: 10%;
-  transition-delay: 0.3s;
-  transition-duration: 2s;
+  transition-delay: 0.2s;
+  transition-duration: 3s;
 }
 
 .h1-empresas {
