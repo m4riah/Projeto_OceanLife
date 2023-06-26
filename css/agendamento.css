@@ -69,7 +69,6 @@ body {
     text-decoration: none;
     color: #9ac8d6;
     padding-bottom: 5px; 
-    font-weight: 500;
     font-weight: bold;
 }
   
@@ -91,7 +90,7 @@ body {
 
 
 #agendar {
-    color: rgb(97, 129, 145);
+    color: #4EB9CD;
 }
 
 
@@ -111,8 +110,20 @@ body {
     padding-left: 10px;
 }
 
+.container {
+    display: flex;
+}
+
 .input-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 120px;
+    height: 100vh;
+    border-right: 2px solid #4ebacd48;
+    width: 43%; 
+    margin: 0 auto;
 }
 
 
@@ -139,18 +150,12 @@ input[type="date"] {
     padding-left: 9px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 2px solid #a2e0f980;
-    width: 43%;
-    height: 100vh;
-}
-
 
 .label-horario {
     margin-top: 40px;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 
 #horario {
@@ -165,15 +170,17 @@ input[type="date"] {
 }
 
 .input-agendar {
-    margin-top: 20px;
-    width: 100px;
-    height: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 110px;
+    height: 37px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 14px;
     border: 1px solid #75be5375;
     background-color: #68EC2A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #074722;
+    font-family: 'Rubik', sans-serif;
+    color: #194e2f;
 }
 
 .input-select, 
@@ -184,5 +191,42 @@ input[type="date"]:focus {
 }
 
 label {
-    font-family: 'Rubik', sans-serif
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: #335c63f5;
+}
+
+.right {
+    display: flex;
+    width: 57%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.box-p{
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid #D4D0D0;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: #686666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    box-shadow: 0px 4px 4px -2px rgba(3, 3, 3, 0.11);
+}
+
+
+.historico {
+    margin-top: 15px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: #53B6D6;
+   font-family: 'Rubik', sans-serif;
 }
