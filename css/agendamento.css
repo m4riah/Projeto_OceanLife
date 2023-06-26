@@ -115,15 +115,14 @@ body {
 }
 
 .input-select {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 100px;
+    margin-left: 200px;
     align-items: center;
     margin-bottom: 120px;
     height: 100vh;
     border-right: 2px solid #4ebacd48;
     width: 43%; 
-    margin: 0 auto;
 }
 
 
@@ -153,9 +152,6 @@ input[type="date"] {
 
 .label-horario {
     margin-top: 40px;
-    align-items: center;
-   justify-content: center;
-   text-align: center;
 }
 
 #horario {
@@ -180,7 +176,7 @@ input[type="date"] {
     background-color: #68EC2A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-family: 'Rubik', sans-serif;
-    color: #194e2f;
+    color: #ffffff;
 }
 
 .input-select, 
