@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/agendamento.css">
     <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nushu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <title>Agendar Coleta</title>
+    <script src="/js/script.js"></script>
 </head>
+
 <body>
     <header>
         <div class="box">
@@ -27,23 +34,52 @@
                 <li><a href="#">Pontos de Coleta</a></li>
             </ul>
         </nav>
-        <div class="container">
-            <div class="box2">
-                <div class="input-select">
-                    <div class="label">
-                    <label for="select-pontoscoleta">Selecione  o ponto de coleta mais 
-                        próximo de você</label>
-                    </div>
-                    <select id="select-pontoscoleta" name="select-pontoscoleta" required>
-                        <option value="masculino">Polo Golfinho-azul - Praia de Boa Viagem</option>
-                        <option value="feminino">Polo Peixe-Palhaço - Praia de Boa Viagem</option>
-                        <option value="outro">Polo Cavalo-Marinho - Praia do Pina</option>
-                        <option value="outro">Polo Peixe-Dourado - Praia de Brasília Teimosa</option>
-                        <option value="outro">Polo Tartaruga - Buraco da Véia</option>
-                        <option value="outro">Polo Estrela-do-mar - Praia do Pina</option>
-                    </select>
+    </main>
+
+    <div class="container">
+        <div class="input-select">
+            <div class="label">
+                <label for="select-pontoscoleta">Selecione o ponto de coleta mais próximo de você</label>
+            </div>
+
+            <div class="select">
+                <select id="select-pontoscoleta" name="select-pontoscoleta" required>
+                    <option value="golfinho-azul">Polo Golfinho-azul - Praia de Boa Viagem</option>
+                    <option value="peixe-palhaco">Polo Peixe-Palhaço - Praia de Boa Viagem</option>
+                    <option value="cavalo-marinho">Polo Cavalo-Marinho - Praia do Pina</option>
+                    <option value="peixe-dourado">Polo Peixe-Dourado - Praia de Brasília Teimosa</option>
+                    <option value="tartaruga">Polo Tartaruga - Buraco da Véia</option>
+                    <option value="estrela-do-mar">Polo Estrela-do-mar - Praia do Pina</option>
+                </select>
+            </div>
+
+            <div class="calendario">
+                <div class="label-calendario">
+                    <label>Selecione uma data para ir ao ponto de coleta</label>
                 </div>
+                <input type="date" id="data" name="data">
+
+                <div class="label-horario">
+                    <label for="horario">Horário:</label>
+                </div>
+                <select id="horario" name="horario">
+                    <option value="" disabled selected>Selecione um horário</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
+
+                <br><br>
+                <input class="input-agendar" type="submit" value="Agendar">
             </div>
         </div>
+    </div>
 </body>
+
 </html>
